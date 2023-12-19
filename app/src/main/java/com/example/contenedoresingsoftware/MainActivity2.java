@@ -23,7 +23,7 @@ public class MainActivity2 extends AppCompatActivity {
                         new Noticias("Noticia 4", "SubNoticia Contenido Contenido Contenido Contenido 4")};
 
         AdaptadoresNoticias adaptadornoticias = new AdaptadoresNoticias(this, noticias);
-        ListView lstOpciones = (ListView)findViewById(R.id.listNoticias);
+        ListView lstOpciones = (ListView)findViewById(R.id.listUsuario);
         lstOpciones.setAdapter(adaptadornoticias);
     }
 }
